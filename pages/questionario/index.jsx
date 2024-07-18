@@ -90,11 +90,6 @@ const questionario = () => {
           resultado={resultadoFinal}
         />
       )}
-      {/* {next < perguntas.length ? ( */}
-
-      {/* ) : ( */}
-      {/* "opa" */}
-      {/* )} */}
     </form>
   );
 };

@@ -15,7 +15,7 @@ const Perguntas = ({
   if (ativo === false) return null;
 
   return (
-    <fieldset className="mx-8 mt-8 p-5 border-2">
+    <fieldset className="mx-8 mt-8 p-5 border-2 animeLeft">
       <legend className="font-bold text-[20px] px-[2px] inline-block  bg-white">
         {pergunta}
       </legend>
@@ -23,7 +23,7 @@ const Perguntas = ({
       <div className="">
         {options.map((opcao, index) => {
           return (
-            <div key={index}>
+            <div key={index} className="">
               <label>
                 <input
                   className="mr-2"
